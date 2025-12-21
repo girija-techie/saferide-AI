@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Motorcycle', 'No-Helmet', 'Person', 'Yes-Helmet']
+
+roboflow:
+  workspace: myproject-7lpcc
+  project: helmet-detection-xibyl
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myproject-7lpcc/helmet-detection-xibyl/dataset/3

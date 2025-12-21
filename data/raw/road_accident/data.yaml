@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Accident']
+
+roboflow:
+  workspace: accident-detection-project
+  project: road-accident
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/accident-detection-project/road-accident/dataset/2

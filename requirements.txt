@@ -1,0 +1,12 @@
+ultralytics
+opencv-python
+numpy
+pandas
+streamlit
+boto3
+python-dotenv
+psycopg2-binary
+sqlalchemy
+python-telegram-bot
+langchain
+faiss-cpu

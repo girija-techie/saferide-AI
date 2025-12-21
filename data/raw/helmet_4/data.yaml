@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Helmet', 'No-Helmet']
+
+roboflow:
+  workspace: training-ai-okkpz
+  project: helmet-detection-project1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/training-ai-okkpz/helmet-detection-project1/dataset/1

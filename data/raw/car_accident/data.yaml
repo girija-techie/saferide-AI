@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car_accident_dataset - v1 2024-02-16 6-10pm']
+
+roboflow:
+  workspace: fyp-projects-ttk43
+  project: accident-detection-xymwp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fyp-projects-ttk43/accident-detection-xymwp/dataset/1
