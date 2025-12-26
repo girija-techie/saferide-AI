@@ -5,7 +5,7 @@
 
 ---
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.12.7-blue?logo=python)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-orange?logo=amazon-aws)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
