@@ -1,6 +1,7 @@
 import requests
 import os
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -10,10 +11,11 @@ BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def send_accident_alert(confidence, image_url):
+    ist_time = datetime.now(ZoneInfo("Asia/Kolkata"))
     caption = f"""
 🚨 ACCIDENT DETECTED!
 
-🕒 Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+🕒 Time: {ist_time.strftime('%Y-%m-%d %H:%M:%S')}
 📊 Confidence: {confidence:.2f}
 """
 
